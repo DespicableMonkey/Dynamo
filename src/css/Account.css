@@ -1,0 +1,94 @@
+.account .back-tint2:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.65);
+	transition: all .3s linear;
+}
+
+.account .backimg {
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100vh;
+	background-image: url(https://assets.website-files.com/5ec843e606d25c56c00ad0be/5f8891850b151a53d7cca353_1_79Tl4vuj4RHN9IZbxmP7gw.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all .3s linear;
+}
+
+.account .loginwrapper {
+	background-color: var(--frost-black);
+	width: 25vw;
+	/* height: 50vh; 
+	*/
+	padding-bottom: 30px;
+	margin-left: 65vw;
+
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+
+}
+
+.account .background-tint {
+	background-color: rgba(0,0,0,0.3);
+	background-blend-mode: overlay;
+}
+
+.account .logo {
+	width: 10vw;
+	
+}
+.accout .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+
+  .account .init {
+	margin-top: 30px;
+  }
+
+  .account .imgwrapper {
+	display: flex;
+	justify-content: center;
+  }
+  .account .loginbtn {
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	margin-top: 30px;;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+  }
+
+  .account .loginbtn:hover {
+	background-color: white;
+
+  }
+  .account .loginbtn:hover .text {
+	color: black;	
+  }
+  .account .divider {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: gray;
+	height: 1px;
+	border: 1.5rem;
+	
+  }
+  .errortext {
+	color: red;
+  }
